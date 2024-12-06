@@ -59,12 +59,12 @@ function App() {
               </div>
               <div id="contact">
                 {selectedOrgan && (
-                  <>
-                  
-                    <h2>{selectedOrgan}</h2>
-                    <div className="cl">&nbsp;</div>
-                    
-                    <div className="right">
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
+                    <div style={{ flex: 1, marginRight: "20px" }}>
+                      <h2>{selectedOrgan}</h2>
+                      <p>{descriptions[selectedOrgan]}</p>
+                    </div>
+                    <div style={{ flex: 1 }}>
                       {organs[selectedOrgan] && (
                         <img
                           src={organs[selectedOrgan]}
@@ -73,9 +73,8 @@ function App() {
                         />
                       )}
                     </div>
-                  </>
+                  </div>
                 )}
-                <div className="cl">&nbsp;</div>
               </div>
             </div>
           </div>
