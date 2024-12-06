@@ -1,0 +1,30 @@
+.organ-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.organ-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.organ-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.organ-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
