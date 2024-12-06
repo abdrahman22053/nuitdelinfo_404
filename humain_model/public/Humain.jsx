@@ -32,7 +32,7 @@ export default function Humain({ setSelectedOrgan, ...props }) {
 //         <mesh geometry={nodes.male_zbrush_male_zbrush_0_6.geometry} material={materials.male_zbrush}  onClick={() => handleClick("système_lymphatique")}/>
 //         <mesh geometry={nodes.male_zbrush_male_zbrush_0_7.geometry} material={materials.male_zbrush}  onClick={() => handleClick("poumons")}/>
 //         <mesh geometry={nodes.male_zbrush_male_zbrush_0_8.geometry} material={materials.male_zbrush}  onClick={() => handleClick("coeur")}/>
-//         <mesh geometry={nodes.male_zbrush_male_zbrush_0_9.geometry} material={materials.male_zbrush} onClick={() => handleClick("poumons")}/>
+//         <mesh geometry={nodes.male_zbrush_male_zbrush_0_9.geometry} material={materials.male_zbrush} onClick={() => handleClick("les_poumons")}/>
 //         <mesh geometry={nodes.male_zbrush_male_zbrush_0_10.geometry} material={materials.male_zbrush}  onClick={() => handleClick("système_lymphatique")}/>
 //         <mesh geometry={nodes.male_zbrush_male_zbrush_0_11.geometry} material={materials.male_zbrush}  onClick={() => handleClick("système_immunitaire")}/>
 //         <mesh geometry={nodes.male_zbrush_male_zbrush_0_12.geometry} material={materials.male_zbrush}  />
