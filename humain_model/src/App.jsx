@@ -68,7 +68,7 @@ function App() {
                     <h2>{selectedOrgan}</h2>
                     <div className="cl">&nbsp;</div>
                     <div className="left">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                      <p>{descriptions[selectedOrgan]}</p>
                     </div>
                     <div className="right">
                       {organs[selectedOrgan] && (
