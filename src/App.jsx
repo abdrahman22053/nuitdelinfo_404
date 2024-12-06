@@ -59,16 +59,10 @@ function App() {
               </div>
               <div id="contact">
                 {selectedOrgan && (
-<<<<<<< HEAD:humain_model/src/App.jsx
                   <>
                     <h2>{selectedOrgan}</h2>
                     <div className="cl">&nbsp;</div>
                     <div className="left">
-=======
-                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
-                    <div style={{ flex: 1, marginRight: "20px" }}>
-                      <h2>{selectedOrgan}</h2>
->>>>>>> 80cba95dcaa3088ba80ada49e1fbf0869df30ac2:src/App.jsx
                       <p>{descriptions[selectedOrgan]}</p>
                     </div>
                     <div style={{ flex: 1 }}>
@@ -80,7 +74,7 @@ function App() {
                         />
                       )}
                     </div>
-                  </div>
+                  </>
                 )}
               </div>
             </div>
