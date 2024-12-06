@@ -41,7 +41,12 @@ function App() {
 
           <div id="container">
             <div className="rel-content">
+              <div id="howdy">
+                <h2>OceanBody!</h2>
+                <p>Bienvenue sur OceanBody ! Explorez les liens fascinants entre le corps humain et l'océan à travers des comparaisons éducatives...</p>
+              </div>
               <div id="portfolio">
+                <h2> </h2>
                 <div className="projects">
                   <div style={{ display: "flex", flexDirection: "row" }}>
                     <Canvas style={{ flex: 1 }}>
@@ -65,7 +70,7 @@ function App() {
                     <div className="left">
                       <p>{descriptions[selectedOrgan]}</p>
                     </div>
-                    <div style={{ flex: 1 }}>
+                    <div className="right">
                       {organs[selectedOrgan] && (
                         <img
                           src={organs[selectedOrgan]}
@@ -76,6 +81,7 @@ function App() {
                     </div>
                   </>
                 )}
+                <div className="cl">&nbsp;</div>
               </div>
             </div>
           </div>
