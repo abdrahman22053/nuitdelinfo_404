@@ -41,12 +41,7 @@ function App() {
 
           <div id="container">
             <div className="rel-content">
-              <div id="howdy">
-                <h2>OceanBody!</h2>
-                <p>Bienvenue sur OceanBody ! Explorez les liens fascinants entre le corps humain et l'océan à travers des comparaisons éducatives...</p>
-              </div>
               <div id="portfolio">
-                <h2> </h2>
                 <div className="projects">
                   <div style={{ display: "flex", flexDirection: "row" }}>
                     <Canvas style={{ flex: 1 }}>
@@ -65,11 +60,10 @@ function App() {
               <div id="contact">
                 {selectedOrgan && (
                   <>
+                  
                     <h2>{selectedOrgan}</h2>
                     <div className="cl">&nbsp;</div>
-                    <div className="left">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                    </div>
+                    
                     <div className="right">
                       {organs[selectedOrgan] && (
                         <img
